@@ -2,7 +2,7 @@
 // private android.content.Context context = null; // Cant be final - not sure why it complains about it not being initialised.
 // private java.util.HashMap hash = null;
 
-public CustomAdapter(android.content.Context context, java.util.ArrayList array) {
+public CustomAdapter(android.content.Context context, java.lang.reflect.Array array) {
   super();
   // this.context = context;
   // this.hash = hash;
