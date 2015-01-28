@@ -5,6 +5,6 @@ class MainActivity < Android::App::Activity
     my_hash = {}
     my_hash["array"] = array
     list = Android::Widget::ListView.new(self)
-    list.adapter = CustomAdapter.new(self, my_hash)
+    list.adapter = CustomAdapter.new(self, array)
   end
 end
